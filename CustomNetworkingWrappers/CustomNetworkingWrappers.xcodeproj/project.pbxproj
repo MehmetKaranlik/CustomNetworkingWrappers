@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		4664AF23284CC63D00BB8459 /* CustomNetworkingWrappersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664AF22284CC63D00BB8459 /* CustomNetworkingWrappersApp.swift */; };
-		4664AF25284CC63D00BB8459 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664AF24284CC63D00BB8459 /* ContentView.swift */; };
+		4664AF25284CC63D00BB8459 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664AF24284CC63D00BB8459 /* ExampleView.swift */; };
 		4664AF27284CC63E00BB8459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4664AF26284CC63E00BB8459 /* Assets.xcassets */; };
 		4664AF2A284CC63E00BB8459 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4664AF29284CC63E00BB8459 /* Preview Assets.xcassets */; };
 		4664AF32284CC68800BB8459 /* FirebaseObjectWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664AF31284CC68800BB8459 /* FirebaseObjectWrapper.swift */; };
 		4664AF34284CC6CD00BB8459 /* JsonObjectWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664AF33284CC6CD00BB8459 /* JsonObjectWrapper.swift */; };
+		4664AF37284CDFAA00BB8459 /* FirebaseObjectTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664AF36284CDFAA00BB8459 /* FirebaseObjectTestModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4664AF1F284CC63D00BB8459 /* CustomNetworkingWrappers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNetworkingWrappers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4664AF22284CC63D00BB8459 /* CustomNetworkingWrappersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNetworkingWrappersApp.swift; sourceTree = "<group>"; };
-		4664AF24284CC63D00BB8459 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4664AF24284CC63D00BB8459 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		4664AF26284CC63E00BB8459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4664AF29284CC63E00BB8459 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4664AF31284CC68800BB8459 /* FirebaseObjectWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseObjectWrapper.swift; sourceTree = "<group>"; };
 		4664AF33284CC6CD00BB8459 /* JsonObjectWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonObjectWrapper.swift; sourceTree = "<group>"; };
+		4664AF36284CDFAA00BB8459 /* FirebaseObjectTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseObjectTestModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,10 @@
 		4664AF21284CC63D00BB8459 /* CustomNetworkingWrappers */ = {
 			isa = PBXGroup;
 			children = (
+				4664AF35284CDF9600BB8459 /* ExampleModels */,
 				4664AF30284CC67C00BB8459 /* Wrappers */,
 				4664AF22284CC63D00BB8459 /* CustomNetworkingWrappersApp.swift */,
-				4664AF24284CC63D00BB8459 /* ContentView.swift */,
+				4664AF24284CC63D00BB8459 /* ExampleView.swift */,
 				4664AF26284CC63E00BB8459 /* Assets.xcassets */,
 				4664AF28284CC63E00BB8459 /* Preview Content */,
 			);
@@ -79,6 +82,14 @@
 				4664AF33284CC6CD00BB8459 /* JsonObjectWrapper.swift */,
 			);
 			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		4664AF35284CDF9600BB8459 /* ExampleModels */ = {
+			isa = PBXGroup;
+			children = (
+				4664AF36284CDFAA00BB8459 /* FirebaseObjectTestModel.swift */,
+			);
+			path = ExampleModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4664AF34284CC6CD00BB8459 /* JsonObjectWrapper.swift in Sources */,
-				4664AF25284CC63D00BB8459 /* ContentView.swift in Sources */,
+				4664AF37284CDFAA00BB8459 /* FirebaseObjectTestModel.swift in Sources */,
+				4664AF25284CC63D00BB8459 /* ExampleView.swift in Sources */,
 				4664AF23284CC63D00BB8459 /* CustomNetworkingWrappersApp.swift in Sources */,
 				4664AF32284CC68800BB8459 /* FirebaseObjectWrapper.swift in Sources */,
 			);
